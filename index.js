@@ -2,7 +2,7 @@ const customExpress = require('./config/customExpress.js');
 const dbConnection = require('./config/dbConnection.js');
 const rotaAtendimentos = require('./routes/rotaAtendimentos')
 
-dbConnection()
+// dbConnection()
 
 const port = process.env.PORT || 3000
 
