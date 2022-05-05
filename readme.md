@@ -1,3 +1,10 @@
-- Projeto em Node do curso da Alura 
+# Projeto em NodeJS 
 
-Projeto anterior de um petshop, atualizado para o uso de mongoDB API hospedada no Heroku
+Projeto anterior da API de um petshop baseado no projeto do curso da alura.
+
+Stack utilizada:
+- NodeJS
+- Express
+- MongoDB
+
+Página que consome nossa API pode ser encontrada [aqui](https://github.com/TiMacedoC/frontend-petshop-mongodb)
