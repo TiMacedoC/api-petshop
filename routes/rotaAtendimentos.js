@@ -5,7 +5,6 @@ const atendimentos = require('../controllers/atendimentoController');
 module.exports = (app) => {
 
     app.get('/', (req, res) => {
-        // res.send("deu um get")
         atendimentos.listaAtendimentos(req, res)
     });
 
