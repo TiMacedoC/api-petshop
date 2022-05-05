@@ -1,9 +1,9 @@
 const mongoose = require("mongoose")
 
 module.exports = () => {
-    const uri = `mongodb+srv://timacedoc:tiago1993@cluster0.u7lqu.mongodb.net/petshop`
+    // const uri = `mongodb+srv://timacedoc:tiago1993@cluster0.u7lqu.mongodb.net/petshop`
 
-    mongoose.connect(uri)
+    mongoose.connect(process.env.MONGODB_URI)
 
     let db = mongoose.connection
 
