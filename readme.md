@@ -1,4 +1,4 @@
-- Projeto em Node do curso da Alura 
+# Projeto em NodeJS
 
 Projeto anterior da API de um petshop baseado no projeto do curso da alura.
 
